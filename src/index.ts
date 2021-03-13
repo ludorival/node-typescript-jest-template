@@ -1,20 +1,20 @@
-'use strict';
+'use strict'
 
 export class Example {
-	/* Private Instance Fields */
+  /* Private Instance Fields */
 
-	private logger: Console;
+  private logger: Console
 
-	/* Constructor */
+  /* Constructor */
 
-	constructor() {
-		this.logger = console;
-	}
+  constructor() {
+    this.logger = console
+  }
 
-	/* Public Instance Methods */
+  /* Public Instance Methods */
 
-	public exampleMethod(param: string): string {
-		this.logger.info('Received: ' + param);
-		return param;
-	}
+  public exampleMethod(param: string): string {
+    this.logger.info('Received: ' + param)
+    return param
+  }
 }
